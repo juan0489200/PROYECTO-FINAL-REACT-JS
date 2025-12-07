@@ -1,12 +1,9 @@
-import React from 'react'
-
 function Footer() {
   return (
-    <footer>
-        <hr />
-        <p>Desarrolado por: @JotaDe</p>
+    <footer className="bg-dark text-white text-center py-1 sticky-footer">
+      <small>Desarrollado por JotaDe © 2025</small>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

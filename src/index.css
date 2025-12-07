@@ -97,3 +97,8 @@ main {
   box-shadow: 5 0 6px rgba(0, 0, 0, 0.2); /* Shadow negro con blur */
   transform: translateY(-1px);
 }
+.sticky-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
